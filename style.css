@@ -1,0 +1,174 @@
+.clock {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin: 300px auto; 
+    background: cornflowerblue;
+    position: relative;
+}
+
+.number-1 {
+    position: relative;
+    top: 40px;
+    left: 370px;
+}
+
+.clock p {
+    font-size: 30px;
+}
+
+.number-2 {
+    position: relative;
+    left: 445px;
+    top: 60px;
+}
+
+.number-3 {
+    position: relative;
+    left: 475px;
+    top: 105px;
+}
+
+.number-4 {
+    position: relative;
+    top: 160px;
+    left: 445px;
+}
+
+.number-5 { 
+    position: relative;
+    left: 370px;
+    top: 175px;
+}
+
+.number-6 {
+    position: relative;
+    left: 240px;
+    top: 147px;
+}
+
+.number-7 {
+    position: relative;
+    top: 48px;
+    left: 120px;
+
+}
+
+.number-8 {
+    position: relative;
+    left: 45px;
+    bottom: 95px;
+}
+
+.number-9 {
+    position: relative;
+    left: 10px;
+    bottom: 277px;
+}
+
+.number-10 {
+    position: relative;
+    left: 38px;
+    bottom: 450px;
+
+}
+
+.number-11 {
+    position: relative;
+    left: 113px;
+    bottom: 598px;
+}
+
+.number-12 {
+    position: relative;
+    bottom: 694px;
+    left: 240px;
+}
+
+.center {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: red;
+    left: 230px;
+    top: 235px;
+}
+
+.sec {
+    position: absolute;
+    width: 5px;
+    height: 200px;
+    border-radius: 30%;
+    background: burlywood;
+    left: 248px;
+    top: 60px;
+    animation-name: secund;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 100% 100%;
+}
+
+@keyframes secund {
+    0% {
+transform: rotate(0);
+
+    }
+    100% {
+transform: rotate(360deg);
+
+    }
+}
+
+.minute {
+    position: absolute;
+    width: 8px;
+    height: 180px;
+    border-radius: 20%;
+    background: green;
+    left: 246px;
+    top: 80px;
+    animation-name: min;
+    animation-duration: 1800s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 100% 100%;
+}
+
+@keyframes min {
+    0% {
+transform: rotate(0);
+
+    }
+    100% {
+transform: rotate(360deg);
+
+    }
+}
+
+.hour {
+    position: absolute;
+    width: 10px;
+    height: 150px;
+    border-radius: 10%;
+    background: blue;
+    left: 245px;
+    top: 100px;
+    animation-name: hour;
+    animation-duration: 108000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 100% 100%;
+}
+
+@keyframes hour {
+    0% {
+transform: rotate(0);
+
+    }
+    100% {
+transform: rotate(360deg);
+
+    }
+}
